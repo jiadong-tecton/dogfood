@@ -10,13 +10,6 @@ loan_candidate = Entity(
 branch_id = Entity(
     name='branch_id',
     join_keys=['branch_id'],
-    description='A branch of the leander',
-    owner='jiadong@tecton.ai'
-)
-
-loan_default = Entity(
-    name='loan_default',
-    join_keys=['loan_default'],
-    description='if a loan defaults',
+    description='A branch of the lender',
     owner='jiadong@tecton.ai'
 )

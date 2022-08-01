@@ -4,8 +4,7 @@ from requests.auth import HTTPBasicAuth
 import json
 
 
-while 1:
-    # 426484
+# 426484
 user_id = input("Please enter the user id:")
 # 67
 branch_id = input("Please enter the branch id:")
